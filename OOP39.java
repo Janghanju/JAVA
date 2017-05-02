@@ -1,3 +1,5 @@
+package BIT01;
+
 public class OOP39 {
 	public static void main(String[] args) {
        char[] a={'w','h','i','t','e'}; // ehitw
@@ -16,11 +18,11 @@ public class OOP39 {
 		}
 		System.out.println();
 
-		char sd='f'; // e¶ó´Â ¹®ÀÚ°¡ ¸î ¹øÂ°ÀÎ´Â°¡?(ÀÌÁø°Ë»ö): 0
+		char sd='f'; // eë¼ëŠ” ë¬¸ìê°€ ëª‡ ë²ˆì§¸ì¸ëŠ”ê°€?(ì´ì§„ê²€ìƒ‰): 0
 		int low=0;
 		int high=a.length-1;
 		int middle;
-		int index=-1; // ½ÇÆĞÀüÁ¦?
+		int index=-1; // ì‹¤íŒ¨ì „ì œ?
 		//----------------------------------
 		int cnt=0;
 		while(low<=high){
@@ -34,11 +36,11 @@ public class OOP39 {
 			  high=middle-1;
 		  }				  
 		}
-		// Ãâ·Â
+		// ì¶œë ¥
 		if(index!=-1){
 			System.out.println(sd+" is index at "+ index);
 		}else{
-			System.out.println("½ÇÆĞ");
+			System.out.println("ì‹¤íŒ¨");
 		}
 	}
 
