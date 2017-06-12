@@ -2,6 +2,9 @@ package BIT02;
 
 public class OOP76 {
 	
+		//정보올림피아드 알고리즘
+		//p.45 가. 재귀함수로 분기하기
+	
 		int m = 4;
 		int n = 5;
 		
@@ -13,6 +16,7 @@ public class OOP76 {
 				};
 
 		int[][] s = new int[m][n]; // 4X5
+		
 	//함수선언 f(y,x)
 	public int f(int y, int x){
 		if(s[y][x]>0){
